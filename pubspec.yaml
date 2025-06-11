@@ -1,0 +1,76 @@
+name: food_pic_app
+description: "A new Flutter project."
+
+publish_to:
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  hooks_riverpod: ^2.5.1
+  flutter_hooks: ^0.20.5
+  riverpod_annotation: ^2.3.5
+  
+  # Navigation
+  go_router: ^14.6.1
+  
+  # Data Classes
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  
+  # Backend
+  supabase_flutter: ^2.9.0
+  
+  # Image & Media
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  
+  # Maps & Location
+  flutter_naver_map: ^1.3.0+1
+  geolocator: ^14.0.0
+  
+  # Network
+  http: ^1.4.0
+  
+  # Address Search
+  daum_postcode_search: ^0.0.4
+  flutter_inappwebview: ^6.1.5
+  
+  # Utils
+  intl: ^0.20.2
+  flutter_dotenv: ^5.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+  # Code Generation
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+
+
+flutter:
+  assets:
+    - assets/
+    - .env
+
+  uses-material-design: true
+
