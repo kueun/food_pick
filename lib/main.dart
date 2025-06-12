@@ -137,3 +137,13 @@ class MyApp extends ConsumerWidget {
     );
   }
 }
+
+// 메인 다트 파일..
+class Main extends StatelessWidget {
+  const Main({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
